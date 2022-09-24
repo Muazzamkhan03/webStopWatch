@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +14,6 @@ body{
 }
 
 .clock{
-    background-color: white;
     position: absolute;
     min-width: 44vw;
     min-height: 33vh;
@@ -27,4 +28,25 @@ body{
 
 .time{
     margin: 2vw;
+    color: white;
+    font-family: 'Poor Story', cursive;
+    font-size:8vw;
+
+}
+
+.btn{
+    background: none;
+    border-radius: 1.5vw;
+    border: 2px gray solid;
+    width: 8vw;
+    height: 6vh;
+    font-family: 'Poor Story', cursive;
+    font-size: 2vw;
+    color: white;
+    margin: 0 0.5vw;
+}
+
+.btn:hover{
+    color: aqua;
+    border: 2px aqua solid;
 }

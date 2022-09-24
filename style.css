@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black url("img/bg.jpg") no-repeat top;
+    background-size: contain;
+    min-width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+

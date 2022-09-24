@@ -11,3 +11,12 @@ body{
     position: relative;
 }
 
+.clock{
+    background-color: white;
+    position: absolute;
+    min-width: 44vw;
+    min-height: 33vh;
+    top: 20vh;
+    right: 45vw;
+    left: 15vw;
+}

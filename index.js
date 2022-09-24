@@ -11,3 +11,9 @@ document.querySelector("#start").addEventListener('click',()=>{
 document.querySelector("#stop").addEventListener('click',()=>{
     clearInterval(interval);
 });
+
+document.querySelector("#reset").addEventListener('click',()=>{
+    min.innerHTML = "0"+0;
+    sec.innerHTML = "0"+0;
+    tenth.innerHTML = "0"+0;
+})

@@ -8,4 +8,6 @@ document.querySelector("#start").addEventListener('click',()=>{
     interval = setInterval(time,10);
 });
 
-
+document.querySelector("#stop").addEventListener('click',()=>{
+    clearInterval(interval);
+});
